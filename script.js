@@ -1,10 +1,15 @@
 $(document).ready(function(){
 
-    $("button").click(function(){
-
+    $("button").click(function(event){
+        event.preventDefault();
+        
         function searchCity () {
-            var city = 
-        }
+            var city = $("input").val();
+            localStorage.setItem("searchedCity", city);
+            // Need to update URL with city and need to update card title with city and empty the form and create new list items and create a new click function for the list items. Do I even need to store this in local storage, or can the value of the form just be used "on click" to fill in the appropriate fields in the HTML?
+        };
+
+            searchCity();
 
         var thisDay = moment().format("dddd, MMM DD YYYY");
         var tomorrow = moment().add(1, "days").format("L");

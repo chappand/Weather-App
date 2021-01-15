@@ -12,34 +12,94 @@
 </head>
 <body>
     <nav class="navbar navbar-light bg-light justify-content-center">
-        <span class="navbar-brand mb-0 h1">Navbar</span>
+        <span class="navbar-brand mb-0 h1">Weather Dashboard</span>
     </nav>
     <div class="container-fluid">
         <div class="row">
             <div class="col-4">
-                <label for="formGroupExampleInput2">Another label</label>
-                <div class="row">
-                        
-                          <div class="col-9">
-                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
-                          </div>
-                          <div class="col-3">
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                          </div>
-                        
+                <label for="formGroupExampleInput2">Search for a City:</label>
+                <div class="row">         
+                    <div class="col-9">
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="City">
+                    </div>
+                    <div class="col-3">
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    </div>
                 </div>
 
-                <p>city history</p>
-                <br>
-                <p>another city</p>
+                <ul class="list-group list">
+                    <li class="list-group-item">This is where</li>
+                    <li class="list-group-item">Cities go</li>
+                </ul>
  
             </div>
             <div class="col-8">
                 <div class="row">
-                    <p>hi</p>
+                    <div class="card w-100">
+                        <div class="card-body">
+                          <h3 class="card-title" id="city">City</h3>
+                          <br>
+                          <p class="card-text">Temperature:</p>
+                          <p class="card-text">Humidity:</p>
+                          <p class="card-text">Windspeed:</p>
+                          <p class="card-text">UV Index:</p>
+                        </div>
+                      </div>
                 </div>
                 <div class="row">
-                    <p>hello</p>
+                    <h3>5 Day Forecast:</h3>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md">
+                        <div class="card smallCard card1">
+                            <div class="card-body">
+                              <h6 class="card-title">Tomorrow</h6>
+                              <p class="card-text">Symbol</p>
+                              <p class="card-text">Temp:</p>
+                              <p class="card-text">Humidity:</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card smallCard">
+                            <div class="card-body">
+                              <h6 class="card-title">Tomorrow</h6>
+                              <p class="card-text">Symbol</p>
+                              <p class="card-text">Temp:</p>
+                              <p class="card-text">Humidity:</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card smallCard">
+                            <div class="card-body">
+                              <h6 class="card-title">Tomorrow</h6>
+                              <p class="card-text">Symbol</p>
+                              <p class="card-text">Temp:</p>
+                              <p class="card-text">Humidity:</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card smallCard">
+                            <div class="card-body">
+                              <h6 class="card-title">Tomorrow</h6>
+                              <p class="card-text">Symbol</p>
+                              <p class="card-text">Temp:</p>
+                              <p class="card-text">Humidity:</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card smallCard">
+                            <div class="card-body">
+                              <h6 class="card-title">Tomorrow</h6>
+                              <p class="card-text">Symbol</p>
+                              <p class="card-text">Temp:</p>
+                              <p class="card-text">Humidity:</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -54,5 +114,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
 <script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js">
+</script>
 </body>
 </html>

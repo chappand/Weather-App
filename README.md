@@ -19,11 +19,11 @@ The UV index was something I couldn't find. Also, the formatting of the appended
 ### Screenshots
 
 Here is a screenshot for what it looks like when you open the page:
-![Start](/images/Before.png)
+![Start](Images/Before.png)
 
 
 Here is a screenshot with what it looks like with a randomly generated 10 character password:
-![GeneratedPassword](/images/10CharacterPassword.png)
+![After](Images/After.png)
 
 
 
